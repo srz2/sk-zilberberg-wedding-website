@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.align-vertical {
+    height: 50%;
+}
+
+.flex50 {
+    width: 50%;
+}
+
+.flex-direction-updown {
+    flex-direction: column;
+}
+
+.flex-direction-downup {
+    flex-direction: column-reverse;
+}
+
+.flex-direction-leftright {
+    flex-direction: row;
+}
+
+.flex-direction-rightleft {
+    flex-direction: row-reverse;
+}

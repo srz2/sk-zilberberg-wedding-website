@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand|Teko&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/index.css">
         <link rel="stylesheet" href="./styles/parallax.css">
+        <link rel="stylesheet" href="./styles/flex.css">
     </head>
     <body>
         <nav>
@@ -19,31 +20,40 @@
         </nav>
 
         <main>
-            <div id="top" class="section main-header">
-                <div id="main-content">
+            <div id="top" class="main-header">
+                <div id="main-details">
                     <h1>Kaitlin & Steven</h1>
                     <h2>#ZilTheDeal</h2>
                     <h3 id="lblDaysLeft">XXX Days Left</h3>
                 </div>
-                <div id="main-img">
-                    <img src="./images/selected/main-img.jpg" alt="Steven and Kait Main Image">
-                </div>
-                <div id="main-desc" class="light-background">
-                    <p>Kaitlin and Steven are planning to spend the rest of their lives together!</p>
-                    <p>Find out how they are planning to do it here!</p>
+                <div class="main-content flex-container">
+                    <div id="main-img" class="flex50">
+                        <img src="./images/selected/main-img.jpg" alt="Steven and Kait Main Image">
+                    </div>
+                    <div id="main-desc" class="flex50 align-vertical light-background">
+                        <p>Kaitlin and Steven are planning to spend the rest of their lives together!</p>
+                        <p>Find out how they are planning to do it here!</p>
+                    </div>
                 </div>
             </div>
 
             <div class="parallax parallax-img1"></div>
 
             <div id="ceremony-and-reception" class="section">
-                <h1>Ceremony & Reception</h1>
-                <div>
-                    <div class="left">
-                        <p>We have chosen the <a href="https://westmountcc.com/" target="_blank">Westmount Country Club</a> to host our special day! The <em>ceremony</em> and <em>reception</em> will take place in the same location, so there isn't any need to move to somewhere else. After getting to <em>The Club</em> we will party and let the good times roll all night!</p>
-                    </div>
-                    <div class="right">
-                        <img src="./images/westmountcc.jpg" alt="Image of Westmount Country Club">
+                <h1 class="section-title">Ceremony & Reception</h1>
+                <div class="section-description">
+                    <p>We have chosen the <a href="https://westmountcc.com/" target="_blank">Westmount Country Club</a> to host our special
+                        day! The <em>ceremony</em> and <em>reception</em> will take place in the same location, so there isn't any need to
+                        move to somewhere else. After getting to <em>The Club</em> we will party and let the good times roll all night!</p>
+                    <div class="flex-container">
+                        <div class="flex50">
+                            <img src="./images/westmountcc.jpg" alt="Image of Westmount Country Club">
+                        </div>
+                        <div class="flex50">
+                            <h2>Westmount Country Club</h2>
+                            <p>123 Somewhere Place</p>
+                            <p>Woodland Park, NJ</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,8 +61,8 @@
             <div class="parallax parallax-img2"></div>
 
             <div id="registries" class="section">
-                <h1>Registries</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quaerat nulla ratione, nam recusandae, cupiditate commodi ea dicta quae, perspiciatis aliquid officia ipsam adipisci maiores molestias? Est odit sed sequi.</p>
+                <h1 class="section-title">Registries</h1>
+                <p class="section-description">As Kaitlin and Steven build their new lives together, they both have large aspirations for their future. Please know that your presence at our wedding is present enough! However, for friends and family who have been asking for gift ideas, we’ve created a few online registries, listed below.</p>
                 <div class="grid">
                     <div class="grid-row">
                         <div class="grid-item">
