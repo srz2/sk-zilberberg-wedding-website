@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Scriptina";
+    src: url("./fonts/scriptina.regular.ttf")
+}
+
+.light-background {
+    margin: 0 50px 0;
+    background-color: rgba(192, 192, 192, 0.35);
+}
+
+body {
+    margin: 0;
+    background-image: url("https://wallpapercave.com/wp/Tt4eX9l.jpg");
+}
+
+nav {
+    margin: 0;
+    padding: 20px;
+    background-color: #C0C0C0;
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+img {
+    width: 400px;
+}
+
+.grid {
+    margin: inherit;
+}
+.grid-row {
+    display: flex;
+    margin: auto;
+}
+.grid-item {
+    margin: 25px;
+    border: 2px solid black;
+    width: 150px;
+}
+
+.grid-item img {
+    width: inherit;
+}
+
+.main-header {
+    margin: 0 0 75px 0;
+    padding: 50px 0 0 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "scriptina";
+    font-size: 3em;
+}
+.main-header h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-header h3 {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+}
+
+.main-header p {
+    margin: 0;
+    padding: 0;
+    font-size: 2.25em;
+}
+
+#main-desc p:first-child {
+    margin-top: 20px;
+}
+
+.section {
+    text-align: center;
+    /*display: flex; */
+}
