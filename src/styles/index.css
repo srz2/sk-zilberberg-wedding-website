@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-image: url("images/selected/background.jpg");
+    background-image: url("../images/selected/background.jpg");
 }
 
 /* Start Specific Parallax */
