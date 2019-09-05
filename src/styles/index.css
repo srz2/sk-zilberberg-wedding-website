@@ -133,4 +133,9 @@ footer {
 
 .text-story {
    text-align: left;
+   font-family: "Playfair Display";
+}
+
+.text-story p:first-of-type{
+    margin-block-start: 0;
 }
