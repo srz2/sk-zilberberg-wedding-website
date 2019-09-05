@@ -59,12 +59,20 @@ img {
 }
 .grid-item {
     margin: 25px;
+    padding: 10px 20px 0px 20px;
     border: 2px solid black;
     width: 150px;
 }
 
+.grid-item a{
+    font-family: "Quicksand";
+    text-decoration: none;
+    color: black;
+}
+
 .grid-item img {
-    width: inherit;
+    width: 150px;
+    height: 150px;    
 }
 
 .main-header {
