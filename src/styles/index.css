@@ -58,9 +58,13 @@ img {
     width: 400px;
 }
 
-.grid-row {
+.grid {
     display: flex;
-    margin-left: 15%;
+}
+
+.grid-row {
+    display: inherit;
+    margin: 0 auto;
 }
 .grid-item {
     margin: 25px;
