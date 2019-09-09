@@ -32,7 +32,8 @@ nav {
 nav ul {
     font-family: 'Quicksand', sans-serif;
     list-style: none;
-    display: inline;
+    float: right;
+    margin: 0 50px;
 }
 
 nav ul li {
