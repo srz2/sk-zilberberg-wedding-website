@@ -24,8 +24,15 @@
   background-image: url("../images/selected/parallax/parallax3.jpg");
 }
 
-@media (max-width: 568px){
-  .parallax {
-     background-attachment: scroll;
+/* iPhones 6, 7, 8, X*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+only screen and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3),
+only screen and (max-width: 900px) {  
+    .parallax {
+     display: none;
   }
 }

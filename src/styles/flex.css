@@ -26,3 +26,20 @@
 .flex-direction-rightleft {
     flex-direction: row-reverse;
 }
+
+/* iPhones 6, 7, 8, X*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+only screen and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3),
+only screen and (max-width: 900px) {     
+    .flex-container {
+        display: block;
+    }
+
+    .flex50 {
+        width: 100%;
+    }
+}

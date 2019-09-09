@@ -157,3 +157,61 @@ footer {
 .text-story p:first-of-type{
     margin-block-start: 0;
 }
+
+/* iPhones 6, 7, 8, X*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3),
+only screen and (max-width: 900px) {   
+    * {
+        -webkit-text-size-adjust: 100%;  
+        /* overflow: hidden; */
+    }
+
+    .light-background {
+        margin: 0;
+        background-color: rgba(192, 192, 192, 0.35);
+    }
+
+    .main-header {
+        font-size: 1.5em;
+    }
+
+    img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .section {
+        display: block;
+    }
+
+    .section .section-title {
+        font-family: "Quicksand";
+        font-size: 5em;
+        text-decoration: underline;
+    }
+    
+    .section .section-description {
+        font-size: 3em;
+        width: 100%;
+        background-color: rgba(192, 192, 192, 0.35);
+    }
+
+    .grid-item {
+        width: 33%;
+    }
+
+    .grid-item img {
+        width: 200px;
+        height: 200px;
+    }
+
+    footer {
+        font-size: 3em;
+    }
+}
