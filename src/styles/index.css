@@ -150,6 +150,11 @@ address {
 .section .section-description {
     margin: auto;
     width: 65%;
+    font-size: 1.4em;
+}
+
+.section-description a {
+    text-decoration: none;
 }
 
 footer {
