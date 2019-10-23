@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+.flex100 {
+    width: 100%;
+}
+
 .flex-direction-updown {
     flex-direction: column;
 }
