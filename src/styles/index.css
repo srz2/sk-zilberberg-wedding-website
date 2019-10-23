@@ -183,7 +183,7 @@ only screen
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3),
-only screen and (max-width: 900px) {   
+only screen and (max-width: 1220px) {   
     * {
         -webkit-text-size-adjust: 100%;  
         /* overflow: hidden; */
