@@ -208,9 +208,9 @@ only screen and (max-width: 1220px) {
     }
 
     .section .section-title {
-        font-family: "Quicksand";
+        /* font-family: "Quicksand"; */
         font-size: 5em;
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
     
     .section .section-description {
