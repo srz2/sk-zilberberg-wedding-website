@@ -1,3 +1,5 @@
+.vscode/
+
 src/images/*
 !src/images/selected/
 src/images/selected/parallax/tmp/*
