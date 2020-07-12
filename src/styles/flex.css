@@ -7,8 +7,16 @@
     height: 50%;
 }
 
+.flex25 {
+    width: 25%;
+}
+
 .flex50 {
     width: 50%;
+}
+
+.flex75 {
+    width: 75%;
 }
 
 .flex100 {
