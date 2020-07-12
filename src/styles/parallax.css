@@ -29,6 +29,15 @@
   background-image: url("../images/selected/parallax/parallax4.jpg");
 }
 
+.parallax-img5 {
+  /* The image used */
+  background-image: url("../images/selected/parallax/parallax5.jpg");
+}
+
+.parallax-img6 {
+  background-image: url("../images/selected/house-and-hash.jpeg");
+}
+
 /* iPhones 6, 7, 8, X*/
 @media only screen 
 and (min-device-width : 375px) 
