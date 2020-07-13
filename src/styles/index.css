@@ -16,10 +16,12 @@ body {
 #img-change-of-plans {
     width: 250px;
     height: auto;
+    transition: ease-in 0.15s;
 }
 
 #img-change-of-plans:hover {
     width:425px;
+    transition: ease-in 0.25s;
 }
 
 /* Start Specific Parallax */
