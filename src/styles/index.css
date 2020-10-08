@@ -13,13 +13,13 @@ body {
     background-image: url("../images/selected/background.jpg");
 }
 
-#img-change-of-plans {
+/* #img-change-of-plans {
     width: 250px;
     height: auto;
     transition: ease-in 0.15s;
-}
+} */
 
-#img-change-of-plans:hover {
+#img-change-of-plans {
     width:425px;
     transition: ease-in 0.25s;
 }
@@ -184,6 +184,22 @@ footer {
 
 .hint {
     font-size: .65em;
+}
+
+button
+{
+  height:30px;
+  width:200px;
+  border-radius:8px;
+  border: 3px solid black;
+  padding:10px;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  height:52px;
+  cursor:pointer;
+  color: navy;
+  background-color:goldenrod;
 }
 
 /* iPhones 6, 7, 8, X*/

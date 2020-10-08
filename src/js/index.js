@@ -43,6 +43,30 @@ function displayDaysLeft() {
     document.getElementById("lblDaysLeft").innerHTML = msg;
 }
 
+function copyToClipboard(element) {
+    var myelement = document.querySelector(element);
+
+
+    const el = document.createElement('textarea');
+    el.value = myelement.innerText;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+
+    var msg = "";
+    if (element === "#code") {
+        msg = "Copied the Conference Code!";
+    } else if(element === "#password") {
+        msg = "Copied the Conference Password!";
+    } else {
+        msg = "Something unexpected happened!"
+    }
+    
+    alert(msg);
+}
+
+
 displayDaysLeft();
 // document.getElementById("cmdCalculate").addEventListener("click", displayDaysLeft);
 
