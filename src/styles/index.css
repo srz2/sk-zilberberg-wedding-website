@@ -202,6 +202,11 @@ button
   background-color:goldenrod;
 }
 
+video {
+    margin: 0 auto;
+    width: 1024px;
+}
+
 /* iPhones 6, 7, 8, X*/
 @media only screen 
 and (min-device-width : 375px) 
