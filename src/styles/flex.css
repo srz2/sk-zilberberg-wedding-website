@@ -3,6 +3,12 @@
     width: 100%;
 }
 
+.flex-container iframe {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .align-vertical {
     height: 50%;
 }
